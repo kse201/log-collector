@@ -3,7 +3,7 @@ use serde_derive::*;
 
 #[derive(Debug, Clone, Eq, PartialEq, Hash, Deserialize, Serialize)]
 pub struct Log {
-    pub use_agent: String,
+    pub user_agent: String,
     pub response_time: i32,
     pub timestamp: DateTime<Utc>,
 }
