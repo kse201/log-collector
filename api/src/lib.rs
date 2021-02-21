@@ -23,7 +23,7 @@ pub mod csv {
     pub mod post {
         use serde_derive::*;
 
-        #[derive(Debug, Clone, Eq, PartialEq, Hash, Deserialize, Serialize)]
+        #[derive(Debug, Clone, Eq, PartialEq, Hash, Default, Deserialize, Serialize)]
         pub struct Response(pub usize);
     }
 }

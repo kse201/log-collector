@@ -8,10 +8,14 @@ edition = "2018"
 
 [dependencies]
 actix-web = "0.7"
+actix-web-multipart-file = "0.1"
 api = { path = "../api"}
 chrono = "0.4"
+csv = "1"
 diesel = { version = "1.4", features = ["postgres", "chrono", "r2d2"] }
 dotenv = "0.13"
 env_logger = "0.6"
 failure = "0.1"
+futures = "0.1"
+itertools = "0.8"
 log = "0.4"
